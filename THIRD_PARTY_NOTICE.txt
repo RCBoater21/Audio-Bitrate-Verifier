@@ -1,0 +1,12 @@
+FFPROBE / FFMPEG
+================
+
+Audio Bitrate Verifier can download and invoke ffprobe from the FFmpeg project.
+FFmpeg is not bundled in this package. When requested by the user, the app
+retrieves a Windows build from:
+
+https://github.com/BtbN/FFmpeg-Builds
+https://ffmpeg.org/
+
+The downloaded runtime is governed by its own licenses. Applicable license and
+notice files from the upstream archive are extracted into the runtime folder.
